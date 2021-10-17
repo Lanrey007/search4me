@@ -13,32 +13,29 @@
     border:3px solid #274690;
     padding: 0 60px;
 }
-.btn{
+.btn-case{
 background-color: #274690;
 box-shadow: 0px 4px 4px rgba(39, 70, 144, 0.25);
 border-radius: 5px;
 padding: 0 60px;
 }
 @media(max-width:768px) {
+   
    .input-case{
         margin-bottom: 10px;
         padding: 0 80px;
+        width: 50%;
     }
-    .btn{
+    .btn-case{
     height: 60px;
     padding: 10px 60px;
-}
-}
-@media (max-width:426px) {
-    .input-case{
-        padding: 0 40px 0  30px !important;
-    }   
-}
-@media (max-width:320px) {
-    .input-case{
-        padding: 0 10px 0  10px !important;
-    }  
-    .btn{
-        padding: 10px 40px;
     }
+}
+@media (max-width:426px){
+    .h6{
+        width: 100% !important;
+    }
+    .input-case{
+        width: 100%;
+    }  
 }
